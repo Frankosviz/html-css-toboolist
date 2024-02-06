@@ -47,6 +47,32 @@ header {
     padding: 20px 50px;
 }
 
+.square, .write-type, .colorated-rectangle {
+    display: inline-block;
+}
+
+.square{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    padding-left: 10px;
+}
+
+.write-type {
+    width: 500px;
+    height: 20px;
+    background-color: yellow;    
+    line-height: 20px;
+}
+
+.colorated-rectangle {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+}
+
+
 /* Color categoryes */
 
 .azure-backg {
@@ -66,6 +92,3 @@ header {
     color: #C6CCD1;
     padding: 5px;
 }
-
-
-
