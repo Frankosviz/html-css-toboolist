@@ -45,10 +45,19 @@ header {
 
 .sections {
     padding: 20px 50px;
+    margin-top: 25px;
 }
 
 .square, .write-type, .colorated-rectangle {
     display: inline-block;
+}
+
+.square-section {
+    padding-top: 10px;
+}
+
+section > h2 {
+    padding-top: 10px;
 }
 
 .square{
@@ -57,23 +66,27 @@ header {
     height: 20px;
     color: green;
     border: 1px solid green;
+    padding-bottom: 20px;
 }
 
 .square span {
-    padding-left: 3px;
+    padding: 2px;
 }
 
 .write-type {
-    width: 500px;
-    height: 20px;
-    background-color: yellow;    
+    height: 20px;   
     line-height: 20px;
+    font-size: 18px;
+    padding-top: 10px;
 }
 
 .colorated-rectangle {
-    width: 100px;
+    width: 80px;
     height: 20px;
-    background-color: blue;
+    background-color: #45ABE9;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
 }
 
 
@@ -96,3 +109,30 @@ header {
     color: #C6CCD1;
     padding: 5px;
 }
+
+#violet {
+    background-color: #9C72E4;
+}
+
+#green-water {
+    background-color: #64C0A9;
+}
+
+#orange {
+    background-color: orange;
+}
+
+#rosa {
+    background-color: #D863A0;
+}
+
+#green {
+    background-color: #B0C926;
+}
+
+#red, #red-double{
+    color: red;
+    border: 1px solid red;
+    padding-bottom: 20px;
+}
+
