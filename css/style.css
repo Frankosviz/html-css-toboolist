@@ -55,8 +55,12 @@ header {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    background-color: red;
-    padding-left: 10px;
+    color: green;
+    border: 1px solid green;
+}
+
+.square span {
+    padding-left: 3px;
 }
 
 .write-type {
