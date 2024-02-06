@@ -1,0 +1,71 @@
+/* Reset iniziale */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #F6F8F9;
+
+/* Header style */
+
+header h1 {
+    font-size: 45px;
+    display: inline-block;  
+}
+
+header img {
+    vertical-align: top;
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+/* Sections style */
+
+.container {
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.input {
+    padding: 20px 50px;
+    border-bottom: 1px solid #C6CCD1;
+
+}
+
+.sections {
+    padding: 20px 50px;
+}
+
+/* Color categoryes */
+
+.azure-backg {
+    background-color: #47ADF1;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px;
+}
+
+.write-grey {
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #C6CCD1;
+    color: #C6CCD1;
+    padding: 5px;
+}
+
+
+
